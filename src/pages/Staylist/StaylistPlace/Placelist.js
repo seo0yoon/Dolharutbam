@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import { StyledEngineProvider } from '@mui/styled-engine';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import StaylistSlider from '../StaylistImgSlider/StaylistSlider';
 
 const Placelist = ({
+  goToDetail,
   placelist: {
     stayId,
     placeImages,
@@ -22,7 +24,7 @@ const Placelist = ({
 }) => {
   return (
     <StyledEngineProvider injectFirst>
-      <PlacelistContainer>
+      <PlacelistContainer onClick={goToDetail}>
         <PlaceImg>
           <StaylistSlider images={placeImages} />
         </PlaceImg>
@@ -68,6 +70,7 @@ const PlacelistContainer = styled.div`
   margin-top: 20px;
   background-color: ${({ theme }) => theme.mainWhite};
   border-bottom: 1px solid #dbdbdb;
+  cursor: pointer;
 `;
 
 const PlaceImg = styled.div`

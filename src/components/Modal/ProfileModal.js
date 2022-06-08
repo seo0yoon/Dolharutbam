@@ -9,7 +9,7 @@ const ProfileModal = ({ setProfileModal, openLoginModal }) => {
           setProfileModal(false);
         }}
       />
-      <ProfileModalLatout>
+      <ProfileModalLayout>
         <BoxWrap>
           <BoxText>
             <BoxList onClick={openLoginModal}>회원 가입</BoxList>
@@ -20,16 +20,22 @@ const ProfileModal = ({ setProfileModal, openLoginModal }) => {
             <BoxList>도움말</BoxList>
           </BoxText>
         </BoxWrap>
-      </ProfileModalLatout>
+      </ProfileModalLayout>
     </>
   );
 };
 
 export default ProfileModal;
 
-const Main = styled.div``;
+const Main = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+`;
 
-const ProfileModalLatout = styled.div`
+const ProfileModalLayout = styled.div`
   position: absolute;
   top: 70px;
   left: -155px;

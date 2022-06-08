@@ -1,8 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Card from './CardComponents/Card';
 import styled from 'styled-components';
 
 const Main = () => {
+  const navigate = useNavigate();
+
+  const goToHost = () => {
+    navigate('/hosting/');
+  };
+
   return (
     <MainLayout>
       <MainBox>
@@ -70,7 +77,7 @@ const Main = () => {
             궁금하신 점이 <br />
             있나요?
           </HostingText>
-          <HostingBtn>슈퍼호스트에게 물어보세요</HostingBtn>
+          <HostingBtn onClick={goToHost}>슈퍼호스트에게 물어보세요</HostingBtn>
         </HostingBox>
       </MainBox>
     </MainLayout>

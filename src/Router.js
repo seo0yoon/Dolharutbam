@@ -15,8 +15,8 @@ function Router() {
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/user/*" element={<User />} />
         <Route path="/hosting/*" element={<HostingRouter />} />
+        <Route path="/user/*" element={<User />} />
         <Route path="/hosting/registered" element={<Registered />} />
         <Route path="/staylist" element={<Staylist />} />
         <Route path="/staydetail" element={<Staydetail />} />

@@ -232,7 +232,7 @@ const MainLayout = styled.main`
 `;
 
 const Logo = styled.span`
-  display: inline-block;
+  display: none;
   margin: 60px 0 0 50px;
   color: white;
   font-family: ${({ theme }) => theme.fontLogo};
@@ -246,11 +246,13 @@ const MainLeft = styled.div`
     rgba(210, 37, 118, 1) 0%,
     rgba(81, 26, 159, 1) 100%
   );
+  margin-top: 40px;
 `;
 
 const MainRight = styled.div`
   position: relative;
   width: 50%;
+  margin-top: 40px;
 `;
 
 const MainQuestion = styled.h2`

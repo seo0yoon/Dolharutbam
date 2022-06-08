@@ -38,11 +38,19 @@ const Staydetail = () => {
   const params = useParams();
   const { id } = params;
 
+  // useEffect(() => {
+  //   fetch(`http://10.58.4.154:8000/stays/${id}`)
+  //     .then(res => res.json())
+  //     .then(data => setRoomdetail(data.result));
+  // }, [id]);
+
+  //mock데이터
   useEffect(() => {
-    fetch(`http://10.58.4.154:8000/stays/${id}`)
+    fetch('/data/roomdetail.json')
       .then(res => res.json())
       .then(data => setRoomdetail(data.result));
   }, [id]);
+
   return (
     <Container>
       <RoomName>
@@ -144,6 +152,7 @@ const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
+  height: 1700px;
 `;
 
 const Main = styled.div`

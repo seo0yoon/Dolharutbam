@@ -30,8 +30,8 @@ const Nav = () => {
   const navigate = useNavigate();
 
   const openLoginModal = () => {
-    setLoginModal(!loginModal);
-    setProfileModal(!profileModal);
+    setLoginModal(true);
+    setProfileModal(false);
   };
 
   const openProfileModal = () => {
@@ -39,23 +39,22 @@ const Nav = () => {
   };
 
   const openDateModal = () => {
-    setIsModalOpen(!isModalOpen);
+    setIsModalOpen(prev => !prev);
     setIsLocationModalOpen(false);
     setIsGuestModalOpen(false);
   };
 
   const openLocationModal = () => {
-    setIsLocationModalOpen(!isLocationModalOpen);
+    setIsLocationModalOpen(prev => !prev);
     setIsModalOpen(false);
     setIsGuestModalOpen(false);
   };
 
   const openGuestModal = () => {
-    setIsGuestModalOpen(!isGuestModalOpen);
+    setIsGuestModalOpen(prev => !prev);
     setIsModalOpen(false);
     setIsLocationModalOpen(false);
   };
-
   const goToMain = () => {
     navigate('/');
   };
@@ -134,9 +133,9 @@ const Nav = () => {
             <NavIcon>
               <IoEarthOutline />
             </NavIcon>
-            <IconBox>
+            <IconBox onClick={openProfileModal}>
               <GrMenu />
-              <FaUserCircle onClick={openProfileModal} />
+              <FaUserCircle />
               {profileModal && (
                 <ProfileModal
                   openLoginModal={openLoginModal}

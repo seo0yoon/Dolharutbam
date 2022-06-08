@@ -22,7 +22,9 @@ const Staylist = () => {
 
   useEffect(() => {
     fetch(
-      `/data/PlaceList.json${location.search || `?limit=${LIMIT}}&offset=0`}`
+      // `/data/PlaceList.json${location.search || `?limit=${LIMIT}}&offset=0`}`
+      //mack데이터
+      'data/PlaceList.json'
     )
       .then(res => res.json())
       .then(data => setPlaceList(data));
@@ -58,6 +60,9 @@ const Staylist = () => {
     setIsClicked(!isClicked); // 저장되어 있는 값의 반대값
   };
 
+  const goToDetail = () => {
+    navigate('/staydetail');
+  };
   return (
     <StaylistContainer>
       <StaylistMenu>
@@ -117,6 +122,7 @@ const Staylist = () => {
               return (
                 <Placelist
                   key={stayId}
+                  goToDetail={goToDetail}
                   placelist={{
                     stayId,
                     placeImages,
@@ -256,7 +262,7 @@ const StayPlace = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 53%;
+  width: 976px;
   height: 100vh;
   background-color: ${({ theme }) => theme.mainWhite};
   overflow-y: scroll;
