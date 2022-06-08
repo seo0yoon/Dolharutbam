@@ -23,6 +23,7 @@ const Staylist = () => {
   useEffect(() => {
     fetch(
       // `/data/PlaceList.json${location.search || `?limit=${LIMIT}}&offset=0`}`
+
       //mack데이터
       'data/PlaceList.json'
     )
@@ -57,12 +58,13 @@ const Staylist = () => {
   };
 
   const openModal = () => {
-    setIsClicked(!isClicked); // 저장되어 있는 값의 반대값
+    setIsClicked(!isClicked);
   };
 
   const goToDetail = () => {
     navigate('/staydetail');
   };
+
   return (
     <StaylistContainer>
       <StaylistMenu>

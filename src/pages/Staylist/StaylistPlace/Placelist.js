@@ -24,11 +24,11 @@ const Placelist = ({
 }) => {
   return (
     <StyledEngineProvider injectFirst>
-      <PlacelistContainer onClick={goToDetail}>
+      <PlacelistContainer>
         <PlaceImg>
           <StaylistSlider images={placeImages} />
         </PlaceImg>
-        <PlaceTextlist>
+        <PlaceTextlist onClick={goToDetail}>
           <PlaceDesc>
             <div>
               <Desc>{description}</Desc>

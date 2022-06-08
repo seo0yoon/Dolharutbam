@@ -43,7 +43,12 @@
   },
   {
     "stayId": 3,
-    "placeImages": [""],
+    "placeImages": [
+      "../images/Staylist/05.jpg",
+      "../images/Staylist/06.jpg",
+      "../images/Staylist/07.jpg",
+      "../images/Staylist/08.jpg"
+    ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
     "adult": 1,
