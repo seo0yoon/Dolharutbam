@@ -28,11 +28,9 @@ Slack
 Trello
 
 
-## Our System
-![초반](https://user-images.githubusercontent.com/91510831/162604253-18d5c3ab-d20b-4140-a73b-43d1b2079c12.gif)
-![중반](https://user-images.githubusercontent.com/91510831/162604327-675e9a84-4bc9-457b-9416-c93541028054.gif)
-![후반](https://user-images.githubusercontent.com/91510831/162604372-ce705b3f-7963-4a8f-863b-cc0f7963addd.gif)
-![카트](https://user-images.githubusercontent.com/91510831/162604400-48bd27bb-2328-4c18-abce-2c3505b2ad44.gif)
+## 시연 영상
+https://www.youtube.com/watch?v=wFNZgmsp6rQ
+
 
 
 ## 내가 구현한 기능
