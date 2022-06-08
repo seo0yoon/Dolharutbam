@@ -15,17 +15,17 @@
 
 ##사용한 기술
 
-React(CRA, Hooks)
-소셜로그인 API
-Styled-Component
-AWS
+· React(CRA, Hooks)
+· 소셜로그인 API
+· Styled-Component
+· AWS
  
 
 ##협업 툴
 
-Git, Github
-Slack
-Trello
+· Git, Github
+· Slack
+· Trello
 
 
 ## 시연 영상
