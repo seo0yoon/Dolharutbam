@@ -1,4 +1,57 @@
-# DolHaru Project
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=MUZIMAKZI%20&fontSize=90)
+# 31-1st-Dolharutbam-Front-End
+## Member: 윤서영, 김민주, 김보윤, 김동욱, 김수훈, 한상안
 
-백엔드 : 김수훈, 한상안
-프론트 : 김민주, 김보윤, 김동욱, 윤서영
+
+
+## Introduction
+- 기간: 2022-04-11 ~ 2022-04-21
+- 구성: Front-end 4명(with 서영, 민주, 보윤, 동욱), Back-end 2명 (with 수훈, 상안)
+- 세계 최대 숙박 공유 사이트 Airbnb를 모티브 한 프로젝트
+
+##돌하룻밤 팀의 이름의 뜻? 
+
+=> 기존의 에어비앤비 사이트의 취지와는 다르게 '제주도에서의 달콤한 하룻밤'을 모티브로 만듬.
+
+
+
+<img width="450" alt="스크린샷 2022-04-10 오후 3 16 25" src="https://user-images.githubusercontent.com/91510831/162605093-cf95817f-9fb3-4ea2-8a54-fd494e326ce7.png">
+
+##사용한 기술
+
+React(CRA, Hooks)
+소셜로그인 API
+Styled-Component
+AWS
+ 
+
+##협업 툴
+
+Git, Github
+Slack
+Trello
+
+
+## Our System
+![초반](https://user-images.githubusercontent.com/91510831/162604253-18d5c3ab-d20b-4140-a73b-43d1b2079c12.gif)
+![중반](https://user-images.githubusercontent.com/91510831/162604327-675e9a84-4bc9-457b-9416-c93541028054.gif)
+![후반](https://user-images.githubusercontent.com/91510831/162604372-ce705b3f-7963-4a8f-863b-cc0f7963addd.gif)
+![카트](https://user-images.githubusercontent.com/91510831/162604400-48bd27bb-2328-4c18-abce-2c3505b2ad44.gif)
+
+
+## 내가 구현한 기능
+*소셜 로그인 기능 구현*
+
+·  REST-API 활용한 카카오 '소셜 로그인' 구현
+
+*상단 페이지, 메인 페이지 구현*
+
+·  라이브러리 및 API 를 사용하여 '달력' 구현, 레이아웃 커스텀
+
+·  truthy & falsy를 이용 클릭이벤트를 활용한 로그인/회원가입 모달창 팝업 기능 구현
+
+·  useNavigation를 사용하여 'Query string' 전달
+
+·  Styled components 를 사용하여 UI 구축
+
+
