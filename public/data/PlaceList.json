@@ -2,10 +2,10 @@
   {
     "stayId": 1,
     "placeImages": [
-      "https://dolharu.s3.ap-northeast-2.amazonaws.com/dolharu_images/0410d30b-ddb4-4684-a2bc-39ebb7d60df1",
-      "https://dolharu.s3.ap-northeast-2.amazonaws.com/dolharu_images/0410d30b-ddb4-4684-a2bc-39ebb7d60df1",
-      "https://dolharu.s3.ap-northeast-2.amazonaws.com/dolharu_images/0410d30b-ddb4-4684-a2bc-39ebb7d60df1",
-      "https://dolharu.s3.ap-northeast-2.amazonaws.com/dolharu_images/0410d30b-ddb4-4684-a2bc-39ebb7d60df1"
+      "../images/Staylist/01.jpg",
+      "../images/Staylist/02.jpg",
+      "../images/Staylist/03.jpg",
+      "../images/Staylist/04.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -23,11 +23,10 @@
   {
     "stayId": 2,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/05.jpg",
+      "../images/Staylist/06.jpg",
+      "../images/Staylist/07.jpg",
+      "../images/Staylist/08.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -44,13 +43,7 @@
   },
   {
     "stayId": 3,
-    "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-    ],
+    "placeImages": [""],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
     "adult": 1,
@@ -67,11 +60,10 @@
   {
     "stayId": 4,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/09.jpg",
+      "../images/Staylist/10.jpg",
+      "../images/Staylist/11.jpg",
+      "../images/Staylist/12.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -89,11 +81,10 @@
   {
     "stayId": 5,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/01.jpg",
+      "../images/Staylist/02.jpg",
+      "../images/Staylist/03.jpg",
+      "../images/Staylist/04.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -111,11 +102,10 @@
   {
     "stayId": 6,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/05.jpg",
+      "../images/Staylist/06.jpg",
+      "../images/Staylist/07.jpg",
+      "../images/Staylist/08.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -133,11 +123,10 @@
   {
     "stayId": 7,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/09.jpg",
+      "../images/Staylist/10.jpg",
+      "../images/Staylist/11.jpg",
+      "../images/Staylist/12.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -155,11 +144,10 @@
   {
     "stayId": 8,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/01.jpg",
+      "../images/Staylist/02.jpg",
+      "../images/Staylist/03.jpg",
+      "../images/Staylist/04.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -177,11 +165,10 @@
   {
     "stayId": 9,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/05.jpg",
+      "../images/Staylist/06.jpg",
+      "../images/Staylist/07.jpg",
+      "../images/Staylist/08.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -199,11 +186,10 @@
   {
     "stayId": 10,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/09.jpg",
+      "../images/Staylist/10.jpg",
+      "../images/Staylist/11.jpg",
+      "../images/Staylist/12.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -221,11 +207,10 @@
   {
     "stayId": 11,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/01.jpg",
+      "../images/Staylist/02.jpg",
+      "../images/Staylist/03.jpg",
+      "../images/Staylist/04.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
@@ -243,11 +228,10 @@
   {
     "stayId": 12,
     "placeImages": [
-      "https://images.unsplash.com/photo-1647484729488-6aede5335db4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1647484415870-a1275245f502?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
-      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80",
-      "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      "../images/Staylist/05.jpg",
+      "../images/Staylist/06.jpg",
+      "../images/Staylist/07.jpg",
+      "../images/Staylist/08.jpg"
     ],
     "description": "Hallim-eub, Cheju의 개인실",
     "placeName": "금능해수욕장 도보 3분거리 1인실(A)",
