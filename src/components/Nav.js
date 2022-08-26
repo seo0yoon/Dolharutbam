@@ -6,11 +6,11 @@ import { FaSearch } from 'react-icons/fa';
 import { FaUserCircle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import qs from 'qs';
-import LoginSignup from './LoginSignup';
-import ProfileModal from './ProfileModal';
-import DateModal from './DateModal';
-import LocationModal from './LocationModal';
-import PersonnelModal from './PersonnelModal';
+import LoginSignup from './Modal/LoginSignup';
+import ProfileModal from './Modal/ProfileModal';
+import DateModal from './Modal/DateModal';
+import LocationModal from './Modal/LocationModal';
+import PersonnelModal from './Modal/PersonnelModal';
 
 const Nav = () => {
   const [loginModal, setLoginModal] = useState(false);

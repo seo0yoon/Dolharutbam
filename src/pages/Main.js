@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Card from './CardComponents/Card';
+import Card from '../components/CardComponents/Card';
 import styled from 'styled-components';
 
 const Main = () => {

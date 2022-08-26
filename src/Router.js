@@ -5,8 +5,8 @@ import User from './pages/User';
 import Main from './pages/Main';
 import Staylist from './pages/Staylist/Staylist';
 import Staydetail from '../src/pages/Staydetail/Staydetail';
-import KakaoLogin from './components/KakaoLogin/KakaoLogin';
-import Nav from '../src/components/Modal/Nav';
+import KakaoLogin from '../src/pages/KakaoLogin/KakaoLogin';
+import Nav from './components/Nav';
 import Registered from './pages/Hosting/HostingPages/Registered';
 
 function Router() {
