@@ -3,30 +3,38 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import Card from '../../components/CardComponents/Card';
 import API from './../../config';
+import { KAKAO, CLIENT_ID, REDIRECT_URI } from './KakaoAuth';
 
 const KakaoLogin = () => {
   const location = useLocation();
-  const code = location.search;
   const navigate = useNavigate();
-  const accessCode = new URLSearchParams(code).get('code');
+  // const code = location.search;
+  // const accessCode = new URLSearchParams(code).get('code');
+
+  //새로운방법
+  const PARAMS = new URL(document.location).searchParams;
+  const KAKAO_CODE = PARAMS.get('code');
 
   useEffect(() => {
-    fetch(`${API.signin}?code=${accessCode}`, {
+    fetch(`https://kauth.kakao.com/oauth/token`, {
       method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `grant_type=authorization_code&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&code=${KAKAO_CODE}`,
     })
       .then(res => res.json())
       .then(data => {
-        if (data.token) {
-          localStorage.setItem('dollharu', data.token);
+        if (data.access_token) {
+          localStorage.setItem('dollharu', data.access_token);
           navigate('/');
           alert('로그인에 성공했습니다.');
         } else {
-          alert('로그인에 실패하였습니다.');
           navigate('/');
+          alert('로그인에 실패하였습니다.');
         }
       });
-  }, [code, accessCode, navigate]);
+  }, []);
 
+  console.log(KAKAO_CODE);
   return (
     <MainLayout>
       <MainBox>

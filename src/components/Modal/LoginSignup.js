@@ -3,6 +3,9 @@ import { GrClose } from 'react-icons/gr';
 import { KAKAO } from '../../pages/KakaoLogin/KakaoAuth';
 
 const LoginSignup = ({ setLoginModal }) => {
+  const handleLogin = () => {
+    window.location.href = KAKAO;
+  };
   return (
     <>
       <Main
@@ -37,7 +40,9 @@ const LoginSignup = ({ setLoginModal }) => {
             <KakaoBtn>
               <KakaoImg src="/images/Nav/카카오.png" alt="" />
               <Kakao>
-                <KakaoAtag href={KAKAO}>카카오톡으로 로그인하기</KakaoAtag>
+                <KakaoAtag onClick={handleLogin}>
+                  카카오톡으로 로그인하기
+                </KakaoAtag>
               </Kakao>
             </KakaoBtn>
           </Form>

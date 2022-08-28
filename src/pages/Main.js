@@ -9,7 +9,6 @@ const Main = () => {
   const goToHost = () => {
     navigate('/hosting/');
   };
-
   return (
     <MainLayout>
       <MainBox>
