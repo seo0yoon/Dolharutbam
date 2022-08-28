@@ -6,6 +6,7 @@ const LoginSignup = ({ setLoginModal }) => {
   const handleLogin = () => {
     window.location.href = KAKAO;
   };
+
   return (
     <>
       <Main

@@ -10,9 +10,9 @@ const KakaoLogin = () => {
   const navigate = useNavigate();
   // const code = location.search;
   // const accessCode = new URLSearchParams(code).get('code');
-
   //새로운방법
   const PARAMS = new URL(document.location).searchParams;
+  //인가코드
   const KAKAO_CODE = PARAMS.get('code');
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const KakaoLogin = () => {
         if (data.access_token) {
           localStorage.setItem('dollharu', data.access_token);
           navigate('/');
-          alert('로그인에 성공했습니다.');
+          alert('로그인 되었습니다.');
         } else {
           navigate('/');
           alert('로그인에 실패하였습니다.');
@@ -34,7 +34,6 @@ const KakaoLogin = () => {
       });
   }, []);
 
-  console.log(KAKAO_CODE);
   return (
     <MainLayout>
       <MainBox>
