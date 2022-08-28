@@ -1,16 +1,14 @@
 import React, { useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Card from '../../components/CardComponents/Card';
-import API from './../../config';
-import { KAKAO, CLIENT_ID, REDIRECT_URI } from './KakaoAuth';
+import { CLIENT_ID, REDIRECT_URI } from './KakaoAuth';
 
 const KakaoLogin = () => {
-  const location = useLocation();
   const navigate = useNavigate();
   // const code = location.search;
   // const accessCode = new URLSearchParams(code).get('code');
-  //새로운방법
+  //더 간단한 방법
   const PARAMS = new URL(document.location).searchParams;
   //인가코드
   const KAKAO_CODE = PARAMS.get('code');
@@ -32,7 +30,7 @@ const KakaoLogin = () => {
           alert('로그인에 실패하였습니다.');
         }
       });
-  }, []);
+  }, [KAKAO_CODE]);
 
   return (
     <MainLayout>

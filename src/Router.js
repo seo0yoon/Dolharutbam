@@ -20,6 +20,7 @@ function Router() {
         <Route path="/hosting/registered" element={<Registered />} />
         <Route path="/staylist" element={<Staylist />} />
         <Route path="/staydetail" element={<Staydetail />} />
+        {/* 카카오 디벨로퍼 리다이렉트 URI로 설정한 주소와 동일해야한다. */}
         <Route path="/kakaologin" element={<KakaoLogin />} />
       </Routes>
     </BrowserRouter>
