@@ -30,10 +30,11 @@ https://www.youtube.com/watch?v=wFNZgmsp6rQ
 
 - REST-API 활용한 카카오 '소셜 로그인' 구현
 - 상단 페이지, 메인 페이지 구현
-- 라이브러리 및 API 를 사용하여 '달력' 구현, 레이아웃 커스텀
-- truthy & falsy를 이용 클릭이벤트를 활용한 로그인/회원가입 모달창 팝업 기능 구현
-- useNavigation를 사용하여 'Query string' 전달
+- multi-date-picker 라이브러리를 사용하여 달력 구현, 레이아웃을 커스텀
+- 클릭이벤트를 활용한 로그인/회원가입 모달창 팝업 기능 구현
+- qs 라이브러리를 사용하여 쿼리 값을 생성하고, URL 주소로 쿼리 스트링을 전달
 - Styled components 를 사용하여 UI 구축
+- e.stopPropagation()를 활용하여 모달창 상태 관리
 
 
 ## 현재까지 Refectoring 완료한 페이지
