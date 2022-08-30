@@ -2,7 +2,7 @@
 
 ## Member: 윤서영, 김민주, 김보윤, 김동욱, 김수훈, 한상안
 
-🔗[MUZIMAKZI](http://muzimakji.s3-website.ap-northeast-2.amazonaws.com/) <br/>
+🔗[Dolharutbam](http://dolharutbam.s3-website.ap-northeast-2.amazonaws.com/) <br/>
 
 ## Introduction
 
